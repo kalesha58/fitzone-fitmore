@@ -1,0 +1,267 @@
+.plans_blur_1{
+    width: 32rem;
+    height: 23rem;top:6rem;
+    left:0rem;
+    border:1px solid red;
+}
+.plans_blur_2{
+    width: 32rem;
+    height: 23rem;
+    top: 1orem;
+    right: 0rem;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    /* border:2px solid blue */
+}
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex:3;
+    /* border:2px solid green; */
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+}
+.right-h{
+    /* border:2px solid yellow; */
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+}
+   /* BEST ADD */
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    color:white;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-ad>span{
+    z-index:2
+}
+.the-best-ad>div{
+  position: absolute;
+  background-color: var(--orange);
+  width: 5.4rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index:1
+}
+/* hero Heading */
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    text-transform: uppercase;
+    width: 80%;
+
+}
+/* figures */
+.figures{
+    display: flex;
+    gap:2rem;
+
+}
+.figures>div{
+display: flex;
+flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+   
+}
+.figures>div>span:nth-of-type(2){
+    color:var(--gray);
+    /* font-size: 2rem; */
+    text-transform: uppercase;
+}
+/* hero button */
+.hero-buttons{
+    display: flex;
+    gap:1rem;
+    font-weight: normal;
+
+}
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+
+}
+.hero-buttons>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border:2px solid   var(--orange);
+}
+/* join and hearrat */
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+ .heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top:7rem
+ }
+ .heart-rate>img{
+    width: 2rem;
+ }
+ .heart-rate>:nth-child(2){
+    color:var(--gray)
+ }
+ .heart-rate>:nth-child(3){
+    color:white;
+    font-size: 1.rem;
+ }
+
+ /* hero images */
+ .hero-image{
+    position: absolute;
+    top: 10rem;
+    width: 20rem;
+    right: 8rem;
+ }
+ .hero_image_back{
+    position: absolute;
+    top: 4rem;
+    right: 16rem;
+    z-index: -1;
+    width: 15rem;
+ }
+ /* calories */
+ .calories{
+    display: flex;
+    gap:2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    width:15rem;
+    position: absolute;
+    top: 32.5rem;
+    right: 30rem;
+ }
+ .calories>img{
+    width: 3rem;
+
+ }
+ .calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .calories>div>:nth-child(1){
+    color: var(--gray);
+    
+ }
+ .calories>div>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+
+ }
+ .hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left:0
+ }
+ @media screen and (max-width:768px) 
+ {
+  
+    .hero{
+        flex-direction:column;
+       }
+       .hero-blur{
+        width: 14rem;
+       }
+       .the-best-ad{
+        margin-top: 0;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+       }
+       .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+       }
+       .hero-text>div :nth-child(3){
+        font-size: small;
+        font-weight:  200px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .hero-buttons{
+        justify-content: center;
+
+    }
+    .figures>div>span:nth-of-type(1){
+        font-size: large;
+    }
+    .figures>div>span:nth-of-type(2){
+        font-size: small;
+    }
+    .right-h{
+        position: relative;
+        background: none;
+    }
+    .heart-rate{
+        left:1rem;
+        top:2rem
+    }
+    .calories{
+        position: relative;
+        top:5rem;
+        left: 2rem;
+
+    }
+    .calories>img{
+        width: 2rem;
+    }
+    .calories>div>:nth-child(2){
+        color: white;
+        font-size: 1rem;
+    }
+    .hero-image{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
+    .hero_image_back{
+        width: 15rem;
+        left:2rem;
+        top:0rem
+    }
+ }

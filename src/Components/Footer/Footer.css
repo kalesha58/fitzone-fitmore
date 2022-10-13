@@ -1,0 +1,35 @@
+.footer_container{
+    position: relative;
+
+}
+.footer_container>hr{
+    border:1px solid var(--lightgray)
+}
+.footer{
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction:column;
+    gap:2rem;
+    margin-left: 35rem;
+    
+    
+}
+.social_links>img{
+    margin: auto;
+   width: 2rem;
+   height: 2rem;
+   cursor: pointer;
+   margin-left: 2rem ;
+}
+.logo_footer>img{
+    width: 10rem;
+    margin-left: 3rem;
+}
+.blur_f_1{
+    bottom: 0;
+    right: 15%;
+    width: 23rem;
+    height: 5rem;
+    filter: blur(200px);
+    background: red;
+}
