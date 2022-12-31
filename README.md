@@ -30,7 +30,8 @@ Single page website
 ## Screenshots
 
 ![Screenshot (1161)](https://i.imgur.com/TVj2Vic.jpeg)
-![Screenshot (1162)](https://user-images.githubusercontent.com/105913793/205855546-ac7cc4c0-0fdb-445e-8e45-559d882a04c9.png)
-![Screenshot (1163)](https://user-images.githubusercontent.com/105913793/205855551-a76991d6-1c0d-43c3-9bbc-6608ae137b27.png)
+![Screenshot (1162)](https://i.imgur.com/4EysdYy.jpg)
+![Screenshot (1163)](https://i.imgur.com/6TxPj2P.jpg)
+![Screenshot (1163)](https://i.imgur.com/qaX0uK6.jpg)
 
 
